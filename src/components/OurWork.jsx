@@ -6,7 +6,7 @@ const OurWork = () => {
   return (
     <>
       <section>
-        <div className="flex flex-col md:flex-row r max-w-[1640px] m-auto p-12 bg-gradient-to-b mt-[100px] from-white/75  to-[#CAE9FF]  md:h-[650px]">
+        <div className="flex flex-col md:flex-row lg:flex-row max-w-[1640px] m-auto p-12 bg-gradient-to-b mt-[100px] from-white/75  to-[#CAE9FF]  md:h-[650px]">
           <div className="flex flex-col md:w-[40%]">
             <div>
               {" "}
@@ -36,14 +36,14 @@ const OurWork = () => {
             </div>
           </div>
 
-          <div className="block md:flex flex-col md:w-[60%] ">
+          <div className="flex md:flex flex-col md:w-[60%] ">
             <div className="items-center bg-white shadow-md h-[250px]  md:w-[732px] flex flex-col">
               <p className=" p-5 md:pt-12 text-start md:px-6 w-[300px] md:w-[600px]">
                 At Creativio, we create unique and effective brand identities
                 tailored to each business's needs. Our branding experts design
                 brand guidelines, and marketing collateral to communicate your
                 brand's identity to your target audience.
-                <button className="flex py-4  font-bold text-[#1B4965] ">
+                <button className="flex pt-4 pb-5 font-bold text-[#1B4965] ">
                   Get In Touch
                   <img
                     className="items-center  ml-1 bg-inherit "

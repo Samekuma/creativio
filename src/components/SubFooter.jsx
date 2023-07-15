@@ -14,7 +14,7 @@ const SubFooter = () => {
         <p className="text-[32px] md:text-[72px] font-medium text-[#3F3F3F]">
           Have an Idea?
         </p>
-        <div className="flex flex-col md:flex-row justify-between items-center ">
+        <div className="flex flex-col md:flex-row justify-between ">
           <div className="flex">
             <p className="text-[32px] md:text-[72px] font-medium text-[#3F3F3F]">
               Let&#39;s Build it together!

@@ -5,13 +5,13 @@ import framebody from "./CreativioImg/framebody.png";
 
 const Bodytwo = () => {
   return (
-    <section className="max-w-[1640px] m-auto px-4 mt-[200px] ">
-      <div className="block md:flex justify-between">
-        <div className="w-[500px] flex items-end ">
-          <button className="flex py-3 px-5 font-bold text-[#1B4965]  ">
+    <section className="max-w-[1640px] m-auto px-4  mt-[100px] lg:mt-[200px] ">
+      <div className="block md:flex md:justify-between">
+        <div className="md:w-[500px] flex md:items-end ">
+          <button className ="flex py-4  font-bold text-[#1B4965]">
             Go to Gallery
             <img
-              className="items-center ml-1 bg-inherit "
+              className="items-center ml-1 "
               src={arrowup}
               alt="/"
             />
@@ -26,8 +26,10 @@ const Bodytwo = () => {
         </p>
       </div>
 
-      <div className="flex justify-center my-[100px] max-w-[1640px]">
-        <img  src={framebody} alt="" />
+      <div className="flex justify-center py-[50px] md:py-[100px] ">
+        <img className=" w-[700px] h-[500px] md:w-screen md:h-screen"  
+        src={framebody} 
+        alt="" />
       </div>
 
 
